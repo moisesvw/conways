@@ -19,14 +19,13 @@ class Game
 
   def play_100
     300.times.each do |generation|
-      tick.map do |row|
-        row.map do |celula|
+      tick.each do |row|
+        row.each do |celula|
           print("∞ ") if celula.live?
         end
         print "\n"
       end
       print "\n"
-      print "_"*40
     end
   end
 
