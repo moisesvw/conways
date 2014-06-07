@@ -17,6 +17,7 @@ GEM
     diff-lcs (1.2.5)
     ffi (1.9.3)
     formatador (0.2.4)
+    gosu (0.7.50)
     guard (2.5.1)
       formatador (>= 0.2.4)
       listen (~> 2.6)
@@ -58,5 +59,6 @@ PLATFORMS
 
 DEPENDENCIES
   debugger
+  gosu
   guard-rspec
   rspec
